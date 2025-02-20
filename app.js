@@ -201,6 +201,9 @@ from an array of inventor objects
 let inventorNamedAda = {};
 
 // Complete the exercise in the space below:
+inventorNamedAda = inventors.find((inventor) => {
+  return inventor.first === "Ada";
+});
 
 // Check your work:
 console.log("Exercise 4 my result: ", inventorNamedAda);
